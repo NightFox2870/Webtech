@@ -20,14 +20,16 @@
 </ul>
 <p><br/><br/></p>
 
-<h3>Contactpagina</h3>
+<div class="contacttekst">
+    <h3>Contactpagina</h3>
 
-<p>3D Blu-ray Store NV<br/>
-    Meir 106<br/>
-    2890 Oppuurs<br/>
-    België<br/>
-    +32473688729<br/>
-    contact@3DBluray.be</p>
+    <p>3D Blu-ray Store NV<br/>
+        Meir 106<br/>
+        2890 Oppuurs<br/>
+        België<br/>
+        +32473688729<br/>
+        contact@3DBluray.be</p>
+</div>
 
 <p>
     <object data="http://maps.google.be/maps?f=q&amp;source=s_q&amp;hl=nl&amp;geocode=&amp;q=Meir+106,+2890+Sint-Amands&amp;aq=0&amp;sll=50.805935,4.432983&amp;sspn=4.05502,13.392334&amp;ie=UTF8&amp;hq=&amp;hnear=Meir+106,+2890+Sint-Amands,+Antwerpen,+Vlaams+Gewest&amp;ll=51.070932,4.256699&amp;spn=0.015748,0.052314&amp;z=14&amp;output=embed"></object>
@@ -36,22 +38,23 @@
             href="http://maps.google.be/maps?f=q&amp;source=embed&amp;hl=nl&amp;geocode=&amp;q=Meir+106,+2890+Sint-Amands&amp;aq=0&amp;sll=50.805935,4.432983&amp;sspn=4.05502,13.392334&amp;ie=UTF8&amp;hq=&amp;hnear=Meir+106,+2890+Sint-Amands,+Antwerpen,+Vlaams+Gewest&amp;ll=51.070932,4.256699&amp;spn=0.015748,0.052314&amp;z=14">Grotere
         kaart weergeven</a></small>
 </p>
-<form id="formulier" action="#" method="post" onsubmit="valideer(this);return false;">
-    <fieldset>
-        <legend>Opmerking</legend>
-        <div>Naam: <input type="text" name="naam" size="15"/> Voornaam: <input type="text" name="voornaam" size="10"/>
-        </div>
-        <div>Email: <input type="text" name="email" size="30"/></div>
-        <div>Bericht:
-            <textarea
-                    cols="50"
-                    rows="8">
-            </textarea>
-            <br/>
-        </div>
-        <input type="button" value="Verzend" onclick="valideerFormulier(this.form);"/>
-    </fieldset>
-</form>
+<div class="formulier">
+<form id="formulier" action= "#" method="post" onsubmit="valideer(this);return false;"> 
+    			<fieldset>
+					<legend>Opmerking</legend>
+					<div>Naam: <input type="text" name="naam" size="15"/> Voornaam: <input type="text" name="voornaam" size="10"/> </div>	
+					<div>Email: <input type="text" name="email" size="30"/> </div>
+					<div>Bericht: 
+						<textarea
+							cols="50"
+							rows="8" >
+						</textarea>
+						<br/>
+					</div>				
+					<input type="button" size="5em" value="Verzend" onclick="valideerFormulier(this.form);"/> 	
+				</fieldset>
+			</form>
+</div>
 <p>
     <a href="http://validator.w3.org/check?uri=referer"><img class="w3"
                                                              src="http://www.w3.org/Icons/valid-xhtml10"

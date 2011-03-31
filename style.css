@@ -1,6 +1,6 @@
 body {
     background: #cccccc;
-    margin: 28px 15% 28px 15%;
+    margin: 28px 30% 28px 30%;
     text-align: center;
     color: #006666;
 }
@@ -18,8 +18,19 @@ body {
 }
 
 div.detail {
-    margin-left: 45px;
+    margin-right: 20px;
+    margin-top: 20px;
     text-align: left;
+}
+
+div.detail h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div.detailinl {
+    text-align: center;
+    margin-top: 40px;   
 }
 
 div.titeldetail {
@@ -28,8 +39,8 @@ div.titeldetail {
 
 div.prijs {
     position: absolute;
-    left: 5%;
-    top: 55%;
+    left: 305px;
+    top: 61%;
 }
 
 div.overzichttekst {
@@ -37,14 +48,15 @@ div.overzichttekst {
     margin-left: 15%;
 }
 
-div.overzichtinleiding {
-    margin-left: 29%;
-    margin-right: 27%;
-}
-
 div.overzichttekst h3 {
     text-align: center;
     margin-right: 15%;
+}
+
+div.contacttekst {
+    position: absolute;
+    left: 30%;
+    top: 10%;
 }
 
 img.logo {
@@ -57,20 +69,24 @@ img.logo {
 
 img.detail {
     position: absolute;
-    left: 0px;
-    top: 20%;
+    left: 230px;
+    top: 28%;
     height: 250px;
     width: 200px;
 }
 
 img.hoes {
     float: left;
-    height: 150px;
-    width: 100px;
+    margin-top: 10px;
+    height: 170px;
+    width: 120px;
+    margin-right: 20px;
 }
 
 img.homepage {
-    margin-right: 50px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 10px;
     height: 180px;
     width: 110px;
 }
@@ -118,6 +134,7 @@ ul a {
 }
 
 h3 {
+    margin-bottom: 25px;
     text-align: center;
     color: #006666;
 }
@@ -127,19 +144,21 @@ legend {
     padding: 5px;
 }
 
-fieldset {
+div.formulier {
     position: absolute;
-    left: 35%;
-    float: left;
-    margin-top: 10px;
+    left: 50%;
+    top: 10%;
+    bottom: 60%;
 }
 
 object {
+    margin-top: 45%;
     width: 425px;
     height: 350px;
 }
 
 small {
+    margin-top: 5px;
     color: #0000FF;
     text-align: left;
 }
