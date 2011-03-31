@@ -1,0 +1,143 @@
+body {
+    background: #cccccc;
+    margin: 28px 15% 28px 15%;
+    text-align: center;
+    color: #006666;
+}
+
+.mainlinks {
+    padding: 0;
+    margin: 0;
+    width: 130px;
+}
+
+.mainlinks ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div.detail {
+    margin-left: 45px;
+    text-align: left;
+}
+
+div.titeldetail {
+    margin-top: 60px;
+}
+
+div.prijs {
+    position: absolute;
+    left: 5%;
+    top: 55%;
+}
+
+img.logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 150px;
+    width: 150px;
+}
+
+img.detail {
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    height: 250px;
+    width: 200px;
+}
+
+img.hoes {
+    float: left;
+    height: 150px;
+    width: 100px;
+}
+
+img.homepage {
+    margin-right: 50px;
+    height: 180px;
+    width: 110px;
+}
+
+img.playera {
+    position: absolute;
+    left: 40%;
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+
+img.playerb {
+    position: absolute;
+    left: 60%;
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+
+li {
+    padding: 0.25em 10px 0.25em 10px;
+    margin: 0;
+    border-bottom: 1px solid #FFFFFF;
+    text-align: center;
+    list-style: none;
+    background: #006666;
+    padding: 5px 4% 5px 4%;
+    float: left;
+}
+
+li:hover {
+    background: #009999;
+}
+
+ul {
+    position: absolute;
+    left: 29%;
+    right: 25%;
+}
+
+ul a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    color: #006666;
+}
+
+legend {
+    font-style: italic;
+    padding: 5px;
+}
+
+fieldset {
+    position: absolute;
+    left: 35%;
+    float: left;
+    margin-top: 10px;
+}
+
+object {
+    width: 425px;
+    height: 350px;
+}
+
+small {
+    color: #0000FF;
+    text-align: left;
+}
+
+img.w3 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+img.w3a {
+    position: absolute;
+    right: 100px;
+    top: 0px;
+}
+
