@@ -42,6 +42,11 @@ div.overzichtinleiding {
     margin-right: 27%;
 }
 
+div.overzichttekst h3 {
+    text-align: center;
+    margin-right: 15%;
+}
+
 img.logo {
     position: absolute;
     left: 0px;
