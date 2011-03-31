@@ -32,6 +32,16 @@ div.prijs {
     top: 55%;
 }
 
+div.overzichttekst {
+    text-align: left;
+    margin-left: 15%;
+}
+
+div.overzichtinleiding {
+    margin-left: 29%;
+    margin-right: 27%;
+}
+
 img.logo {
     position: absolute;
     left: 0px;
