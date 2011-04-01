@@ -39,8 +39,8 @@ div.titeldetail {
 
 div.prijs {
     position: absolute;
-    left: 305px;
-    top: 61%;
+    left: 35%;
+    top: 410px;
 }
 
 div.overzichttekst {
@@ -68,9 +68,9 @@ img.logo {
 }
 
 img.detail {
-    position: absolute;
-    left: 230px;
-    top: 28%;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 80px;
     height: 250px;
     width: 200px;
 }
